@@ -6,7 +6,9 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  approach: []
+  approach:
+  - name: microscopy approach; cell population imaging
+    schemaKey: ApproachType
   dataStandard:
   - identifier: RRID:SCR_015242
     name: Neurodata Without Borders (NWB)
@@ -14,7 +16,7 @@ assetsSummary:
   measurementTechnique:
   - name: analytical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 10995374784
+  numberOfBytes: 11659926089
   numberOfFiles: 20
   numberOfSubjects: 20
   schemaKey: AssetsSummary
@@ -24,6 +26,7 @@ assetsSummary:
     schemaKey: SpeciesType
   variableMeasured:
   - ProcessingModule
+  - PlaneSegmentation
 citation: Sprague, Daniel (2023) Whole-brain NeuroPAL images for understanding whole-brain
   neural dynamics with single cell opto-stimulation (Version draft) [Data set]. DANDI
   archive. https://dandiarchive.org/dandiset/000565/draft
