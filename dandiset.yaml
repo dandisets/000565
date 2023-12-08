@@ -2,6 +2,8 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000565
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json
+about:
+- {}
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -16,9 +18,9 @@ assetsSummary:
   measurementTechnique:
   - name: analytical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 290060353558
-  numberOfFiles: 38
-  numberOfSubjects: 19
+  numberOfBytes: 284209549216
+  numberOfFiles: 36
+  numberOfSubjects: 18
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_6239
@@ -27,9 +29,8 @@ assetsSummary:
   variableMeasured:
   - ProcessingModule
   - PlaneSegmentation
-citation: Sprague, Daniel (2023) Whole-brain NeuroPAL images for understanding whole-brain
-  neural dynamics with single cell opto-stimulation (Version draft) [Data set]. DANDI
-  archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
+citation: Sprague, Daniel; Dunn, Raymond (2023) C. elegans whole-brain neuroPAL and
+  immobilized calcium imaging (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000565/draft
 contributor:
 - affiliation: []
   email: daniel.y.sprague@gmail.com
@@ -38,63 +39,39 @@ contributor:
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
+- affiliation: []
+  email: Raymond.dunn@ucsf.edu
+  includeInCitation: true
+  name: Dunn, Raymond
+  roleName:
+  - dcite:DataCollector
+  - dcite:DataManager
+  - dcite:FormalAnalysis
+  - dcite:Investigation
+  - dcite:Methodology
+  - dcite:Researcher
+  - dcite:Software
+  schemaKey: Person
 dateCreated: '2023-06-17T01:48:24.158039+00:00'
-datePublished: '2023-08-29T19:45:49.384358+00:00'
-description: 'These datasets are part of an effort to understand C. elegans whole-brain
-  neural dynamics by exploring the effects of stimulation of specific neurons on the
-  overall state of brain calcium activity. NeuroPAL is used to obtain labels for neurons
-  which are then matched to the GCaMP time series data to get quantified calcium activity
-  with associated cell ID labels.
-
-
-  Contents:
-
-
-  Subject (C. elegans subject) - contains relevant metadata about the experimental
-  subject
-
-
-  Acquisition, "NeuroPALImageRaw" (MultiChannelVolume) - contains the raw image and
-  associated metadata with dimensions (X, Y, Z, C)
-
-
-  Processing, "NeuroPAL", "VolumeSegmentation" (VolumeSegmentation) - contains a list
-  of neuron centers and associated IDs (X, Y, Z, weight, ID)
-
-
-  Processing, "NeuroPAL", "ImagingVolume" (ImagingVolume) - contains the metadata
-  associated with the imaging acquisition
-
-
-  Processing, "NeuroPAL", "OpticalChannelRefs" (OpticalChannelReferences) - contains
-  the order of the optical channels in the image
-
-
-  Processing, "ProcessedImage", "Hist_match_med_filt" - contains the processed NeuroPAL
-  image with dimensions (X,Y,Z,C)'
-doi: 10.80507/dandi.123456/0.123456.1234
+description: All of the datasets here contain neuroPAL whole-brain structural images.
+  A subset of these files also contain unstimulated calcium imaging data from the
+  worm immobilized in a micro fluidic chip. Each dataset has ~30-50% of neuron centers
+  labeled with cell IDs.
+ethicsApproval: []
 id: DANDI:000565/draft
 identifier: DANDI:000565
+keywords: []
 license:
 - spdx:CC0-1.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000565/versions/draft/assets/
-name: Whole-brain NeuroPAL images for understanding whole-brain neural dynamics with
-  single cell opto-stimulation
-publishedBy:
-  endDate: '2023-08-29T19:45:49.384358+00:00'
-  id: urn:uuid:d62af90e-341e-42f8-a8cc-227d4555f878
-  name: DANDI publish
-  schemaKey: PublishActivity
-  startDate: '2023-08-29T19:45:49.384358+00:00'
-  wasAssociatedWith:
-  - id: urn:uuid:66b9b6a2-79a7-4fbb-9cd4-1ca23663a0b4
-    identifier: RRID:SCR_017571
-    name: DANDI API
-    schemaKey: Software
-    version: 0.1.0
+name: C. elegans whole-brain neuroPAL and immobilized calcium imaging
+protocol: []
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
+studyTarget: []
 url: https://dandiarchive.org/dandiset/000565/draft
 version: draft
+wasGeneratedBy: []
