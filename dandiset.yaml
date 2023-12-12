@@ -18,8 +18,8 @@ assetsSummary:
   measurementTechnique:
   - name: analytical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 217688360526
-  numberOfFiles: 38
+  numberOfBytes: 180966780268
+  numberOfFiles: 37
   numberOfSubjects: 21
   schemaKey: AssetsSummary
   species:
@@ -53,7 +53,7 @@ contributor:
   - dcite:Software
   schemaKey: Person
 dateCreated: '2023-06-17T01:48:24.158039+00:00'
-datePublished: '2023-12-11T22:38:41.774353+00:00'
+datePublished: '2023-12-12T00:38:41.975616+00:00'
 description: All of the datasets here contain neuroPAL whole-brain structural images.
   A subset of these files also contain unstimulated calcium imaging data from the
   worm immobilized in a micro fluidic chip. Each dataset has ~30-50% of neuron centers
@@ -70,13 +70,13 @@ manifestLocation:
 name: C. elegans whole-brain neuroPAL and immobilized calcium imaging
 protocol: []
 publishedBy:
-  endDate: '2023-12-11T22:38:41.774353+00:00'
-  id: urn:uuid:ed9a9d86-57aa-40d7-96ee-e484aa098a08
+  endDate: '2023-12-12T00:38:41.975616+00:00'
+  id: urn:uuid:15809033-804b-441a-8695-3c2501914d60
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2023-12-11T22:38:41.774353+00:00'
+  startDate: '2023-12-12T00:38:41.975616+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:4b17312b-466c-42a0-9847-52176b6971ca
+  - id: urn:uuid:2d040b35-d0b5-4893-9731-b43e3b1a4457
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
