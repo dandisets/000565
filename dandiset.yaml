@@ -18,8 +18,8 @@ assetsSummary:
   measurementTechnique:
   - name: analytical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 75296795277
-  numberOfFiles: 37
+  numberOfBytes: 115827994188
+  numberOfFiles: 39
   numberOfSubjects: 21
   schemaKey: AssetsSummary
   species:
@@ -29,7 +29,7 @@ assetsSummary:
   variableMeasured:
   - PlaneSegmentation
   - ProcessingModule
-citation: Sprague, Daniel; Dunn, Raymond (2023) C. elegans whole-brain neuroPAL and
+citation: Sprague, Daniel; Dunn, Raymond (2024) C. elegans whole-brain neuroPAL and
   immobilized calcium imaging (Version draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
 contributor:
 - affiliation: []
