@@ -29,7 +29,7 @@ assetsSummary:
   - PlaneSegmentation
   - ProcessingModule
 citation: Sprague, Daniel; Dunn, Raymond (2024) C. elegans whole-brain neuroPAL and
-  immobilized calcium imaging (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000565/draft
+  immobilized calcium imaging (Version 0.240611.1955) [Data set]. DANDI archive. https://doi.org/10.48324/dandi.000565/0.240611.1955
 contributor:
 - affiliation: []
   email: daniel.y.sprague@gmail.com
@@ -57,14 +57,15 @@ description: All of the datasets here contain neuroPAL whole-brain structural im
   A subset of these files also contain unstimulated calcium imaging data from the
   worm immobilized in a micro fluidic chip. Each dataset has ~30-50% of neuron centers
   labeled with cell IDs.
+doi: 10.48324/dandi.000565/0.240611.1955
 ethicsApproval: []
-id: DANDI:000565/draft
+id: DANDI:000565/0.240611.1955
 identifier: DANDI:000565
 keywords: []
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000565/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000565/0.240611.1955/assets.yaml
 name: C. elegans whole-brain neuroPAL and immobilized calcium imaging
 protocol: []
 publishedBy:
@@ -84,6 +85,6 @@ repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000565/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000565/0.240611.1955
+version: 0.240611.1955
 wasGeneratedBy: []
