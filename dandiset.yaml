@@ -2,8 +2,7 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000565
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json
-about:
-- {}
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -30,7 +29,7 @@ assetsSummary:
   - PlaneSegmentation
   - ProcessingModule
 citation: Sprague, Daniel; Dunn, Raymond (2024) C. elegans whole-brain neuroPAL and
-  immobilized calcium imaging (Version draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
+  immobilized calcium imaging (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000565/draft
 contributor:
 - affiliation: []
   email: daniel.y.sprague@gmail.com
@@ -53,30 +52,29 @@ contributor:
   - dcite:Software
   schemaKey: Person
 dateCreated: '2023-06-17T01:48:24.158039+00:00'
-datePublished: '2023-12-12T12:17:42.207116+00:00'
+datePublished: '2024-06-11T19:55:52.524463+00:00'
 description: All of the datasets here contain neuroPAL whole-brain structural images.
   A subset of these files also contain unstimulated calcium imaging data from the
   worm immobilized in a micro fluidic chip. Each dataset has ~30-50% of neuron centers
   labeled with cell IDs.
-doi: 10.80507/dandi.123456/0.123456.1234
 ethicsApproval: []
 id: DANDI:000565/draft
 identifier: DANDI:000565
 keywords: []
 license:
-- spdx:CC0-1.0
+- spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000565/versions/draft/assets/
 name: C. elegans whole-brain neuroPAL and immobilized calcium imaging
 protocol: []
 publishedBy:
-  endDate: '2023-12-12T12:17:42.207116+00:00'
-  id: urn:uuid:7e5b2b8e-d410-4e13-ad75-8004a0be196c
+  endDate: '2024-06-11T19:55:52.524463+00:00'
+  id: urn:uuid:62bdc825-9633-4221-a779-3bfde236954e
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2023-12-12T12:17:42.207116+00:00'
+  startDate: '2024-06-11T19:55:52.524463+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:0fcbe66b-82ef-4ec5-bfee-4fa5756b78fb
+  - id: urn:uuid:85ed7cb0-cd76-446a-958c-bfeba76a45c9
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
