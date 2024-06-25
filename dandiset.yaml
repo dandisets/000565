@@ -28,16 +28,10 @@ assetsSummary:
   variableMeasured:
   - PlaneSegmentation
   - ProcessingModule
-citation: Sprague, Daniel; Dunn, Raymond (2024) C. elegans whole-brain neuroPAL and
-  immobilized calcium imaging (Version 0.240611.1955) [Data set]. DANDI archive. https://doi.org/10.48324/dandi.000565/0.240611.1955
+citation: Dunn, Raymond; Sprague, Daniel; Kato, Saul (2024) C. elegans whole-brain
+  neuroPAL and immobilized calcium imaging (Version 0.240625.0439) [Data set]. DANDI
+  archive. https://doi.org/10.48324/dandi.000565/0.240625.0439
 contributor:
-- affiliation: []
-  email: daniel.y.sprague@gmail.com
-  includeInCitation: true
-  name: Sprague, Daniel
-  roleName:
-  - dcite:ContactPerson
-  schemaKey: Person
 - affiliation: []
   email: Raymond.dunn@ucsf.edu
   includeInCitation: true
@@ -51,31 +45,41 @@ contributor:
   - dcite:Researcher
   - dcite:Software
   schemaKey: Person
+- affiliation: []
+  email: daniel.y.sprague@gmail.com
+  includeInCitation: true
+  name: Sprague, Daniel
+  roleName:
+  - dcite:ContactPerson
+  schemaKey: Person
+- includeInCitation: true
+  name: Kato, Saul
+  schemaKey: Person
 dateCreated: '2023-06-17T01:48:24.158039+00:00'
-datePublished: '2024-06-11T19:55:52.524463+00:00'
+datePublished: '2024-06-25T04:39:33.399109+00:00'
 description: All of the datasets here contain neuroPAL whole-brain structural images.
   A subset of these files also contain unstimulated calcium imaging data from the
   worm immobilized in a micro fluidic chip. Each dataset has ~30-50% of neuron centers
   labeled with cell IDs.
-doi: 10.48324/dandi.000565/0.240611.1955
+doi: 10.48324/dandi.000565/0.240625.0439
 ethicsApproval: []
-id: DANDI:000565/0.240611.1955
+id: DANDI:000565/0.240625.0439
 identifier: DANDI:000565
 keywords: []
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://dandiarchive.s3.amazonaws.com/dandisets/000565/0.240611.1955/assets.yaml
+- https://dandiarchive.s3.amazonaws.com/dandisets/000565/0.240625.0439/assets.yaml
 name: C. elegans whole-brain neuroPAL and immobilized calcium imaging
 protocol: []
 publishedBy:
-  endDate: '2024-06-11T19:55:52.524463+00:00'
-  id: urn:uuid:62bdc825-9633-4221-a779-3bfde236954e
+  endDate: '2024-06-25T04:39:33.399109+00:00'
+  id: urn:uuid:5a9436e1-c916-409e-9ad5-e3044606a670
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2024-06-11T19:55:52.524463+00:00'
+  startDate: '2024-06-25T04:39:33.399109+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:85ed7cb0-cd76-446a-958c-bfeba76a45c9
+  - id: urn:uuid:4261b382-1348-4166-b8a5-3966c9c18895
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
@@ -85,6 +89,6 @@ repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000565/0.240611.1955
-version: 0.240611.1955
+url: https://dandiarchive.org/dandiset/000565/0.240625.0439
+version: 0.240625.0439
 wasGeneratedBy: []
